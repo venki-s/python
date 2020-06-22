@@ -3,46 +3,31 @@
 
 def lesser_even(a, b):
 
-    alleven = True
-    if not a%2 == 0:
-        alleven = False
-    if not b%2 == 0:
-        alleven = False
-
-    if alleven:
+    if  a%2 == 0 and b%2 == 0:
         return min(a,b)
     else:
         return max(a,b)
 
-
-lesser = lesserEven(2,4)
-print(lesser)
+print(lesser_even(2,4))
 #2
 
-lesser = lesserEven(1,4)
-print(lesser)
+print(lesser_even(1,4))
 #4
 
-lesser = lesserEven(3,9)
-print(lesser)
+print(lesser_even(3,9))
 #9
 
-lesser = lesserEven(0,4)
-print(lesser)
+print(lesser_even(0,4))
 #0
 
-lesser = lesserEven(0,0)
-print(lesser)
+print(lesser_even(0,0))
 #0
 
-lesser = lesserEven(0, -1)
-print(lesser)
+print(lesser_even(0, -1))
 #0
 
-lesser = lesserEven(-9, -1)
-print(lesser)
+print(lesser_even(-9, -1))
 #-1
 
-lesser = lesserEven(-2, -4)
-print(lesser)
+print(lesser_even(-2, -4))
 #-4

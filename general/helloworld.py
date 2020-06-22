@@ -1,5 +1,3 @@
+mylist = [1,2]
 
-for rangers in range(2, 10):
-    print('\n')
-    for numbers in range(2, rangers):
-        print(numbers)
+print(mylist.index(3))

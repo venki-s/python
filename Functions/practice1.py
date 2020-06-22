@@ -1,7 +1,7 @@
 #Write a function that returns the lesser of two given numbers if both numbers are even, but returns the greater if one or both numbers are odd
 #lesser_of_two_evens
 
-def lesserEven(a, b):
+def lesser_even(a, b):
 
     alleven = True
     if not a%2 == 0:

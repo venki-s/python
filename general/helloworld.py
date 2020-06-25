@@ -1,3 +1,11 @@
-mylist = [1,2]
+'''
+Simple test script
+'''
 
-print(mylist.index(3))
+A = 10
+
+B = 5
+
+print(A)
+
+print(B)

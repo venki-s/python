@@ -1,11 +1,5 @@
-'''
-Simple test script
-'''
-
-A = 10
-
-B = 5
-
-print(A)
-
-print(B)
+import sys
+print("Python version")
+print (sys.version)
+print("Version info.")
+print (sys.version_info)
